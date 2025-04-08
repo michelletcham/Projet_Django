@@ -1,0 +1,6 @@
+venv
+
+.env
+local.env
+staging.env
+production.env
