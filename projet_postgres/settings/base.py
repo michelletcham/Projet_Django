@@ -30,6 +30,7 @@ except (FileNotFoundError, Exception):
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-&c)6ejdq4!(qd))jhu+f9&a@+nbd5i9o-j=u&tti#3qyhof2))'
 
@@ -42,6 +43,8 @@ INSTALLED_APPS = [
 'django.contrib.sessions',
 'django.contrib.messages',
 'django.contrib.staticfiles',
+'django.contrib.gis',
+'django_postgres',
 ]
 
 MIDDLEWARE = [
